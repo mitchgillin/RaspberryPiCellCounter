@@ -11,6 +11,9 @@ To Run:
     Run test2
 To Modify:
     To alter how many pictures are taken, alter the for loop in the test2 file
+    The program is currently set to read bright objects on a darker background. To read dark objects on a bright background, change 
+    line 23 to:
+    [centersBright, radiiBright] = imfindcircles(cells,[1 15],'ObjectPolarity','dark','Sensitivity',.75);
     
 
 Notes
