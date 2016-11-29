@@ -5,6 +5,16 @@ the area of the colonies over time so that a growth curve can be established.
 
 The progam was created as part of a school project focused on making a development in microbiology. 
 
+To Run:
+    Have the test2 m file and the countCFU function in the same workspace. 
+    Follow Instructions here to setup hardware. https://www.mathworks.com/hardware-support/raspberry-pi-matlab.html
+    Run test2
+To Modify:
+    To alter how many pictures are taken, alter the for loop in the test2 file
+    
+
+Notes
+
 Hardware Used: 
   Raspberry Pi 3 Model B
   Rasberry Pi Camera Module V2
